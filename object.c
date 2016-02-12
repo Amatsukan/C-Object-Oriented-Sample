@@ -11,13 +11,13 @@ typedef enum {
     fem
 } sex;
 
-typedef struct bDay{
+typedef struct{
     unsigned char day;
     unsigned char mon;
     unsigned int yea;
 } birthDay;
 
-typedef struct p{
+typedef struct{
     char name[40];
     sex s;
     birthDay* born;
