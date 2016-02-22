@@ -62,6 +62,7 @@ people* people_constructor(char* name, sex s, birthDay* bday){
     return pe;
 };
 
+//C don't support multiple signatures
 people* people_constructor2(char* name, sex s, unsigned char day, unsigned char month, unsigned int year){
     people* pe = malloc(sizeof(people));
     memcpy(pe->name, name, 40);
